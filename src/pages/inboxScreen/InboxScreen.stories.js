@@ -47,6 +47,7 @@ export const Default = Template.bind({});
      await fireEvent.click(canvas.getByLabelText('pinTask-3'));
    });
  };
+ 
 export const Error = Template.bind({});
  Error.parameters = {
    msw: {
